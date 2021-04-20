@@ -1,0 +1,111 @@
+.right table{
+  width: 80%;
+  margin: 30px;
+  padding-left: 50px;
+  line-height: 25px;
+}
+.right th{
+  border: 1px solid #FFFFFF;
+  padding: 20px;
+  font-family: sans-serif;
+  font-size: 100%;
+  background-color: #608000;
+  color: #FFFFFF;
+  border-bottom: 3px solid #66cc00;
+  opacity: 0.8;
+  -webkit-border-radius: 5px 5px 0px 0px;
+  -moz-border-radius: 5px 5px 0px 0px;
+  -o-border-radius: 5px 5px 0px 0px;
+  border-radius: 5px 5px 0px 0px;
+}
+.right th:hover{
+  opacity: 1;
+  font-size: 125%;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+.right th:first-child{
+  text-align: left;
+}
+.right td:nth-child(n+2){
+  text-align: center;
+}
+.right td{
+  border: 1px solid #FFFFFF;
+  padding: 4px;
+  opacity: 0.6;
+  font-family: sans-serif;
+  background-color: #ecffe6;
+  color: #808080;
+}
+.right td:hover{
+  opacity:1;
+  font-size: 125%;
+  color: #000000;
+}
+header{
+  background: #B3B3B3;
+  background-image: url("../images/flywheel.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  width: 1450px;
+  height: 195px;
+  font-size: 125%;
+  padding: 10px;
+  float: right;
+}
+body{
+  padding: 0px;
+  margin: 20px;
+}
+nav a{
+  display: inline-block;
+  text-decoration: none;
+  background-color: rgba(255,255,255,0.5);
+  text-align: center;
+  font-size: 125%;
+  color : #000000;
+  width: 175px;
+  height: 40px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 10px 30px;
+  margin: 10px 40px 0px 60px;
+}
+.active{
+  background-color: rgba(255,255,255,1);
+  color: #000099;
+}
+h1{
+  text-align: center;
+  font-size: 125%;
+  text-transform: uppercase;
+  font-family: serif;
+  color: #FFFFFF;
+  margin-top: 30px;
+}
+h2{
+  text-transform: uppercase;
+  font-size: 175%;
+}
+.right ul{
+  margin-left: 225px;
+}
+.left a img{
+  align-items: center;
+  border: solid 2px #000000;
+  margin: 30px 20px;
+  padding: 0px;
+  width: 175px;
+  height: 100px;
+  display: table-column;
+}
+.left{
+  background: #808000;
+  float: left;
+  height: 700px;
+  margin: 0px 10px 0px;
+}

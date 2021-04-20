@@ -1,0 +1,31 @@
+<DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset = "utf-8">
+    <title>Fill the form</title>
+  </head>
+  <body>
+    <h1>Fill the personal information</h1>
+    <form>
+      <fieldset>
+        <legend>Personal Information : </legend>
+        <label for = "fname">First name</label>
+        <input type = "text" id = "fname" name = "fname"><br/>
+        <label for = "lname">Last name</label>
+        <input type = "text" id = "lname" name = "lname"><br/>
+        <label for = "email">Email:</label>
+        <input type = "email" id = "email" name = "email"><br/>
+        <label for = "password">Password</label>
+        <input type = "password" id = "password" name = "password"><br/>
+        <label for = "birth">DOB</label>
+        <input type= "date" id = "birth"></input><br/>
+        Zip code with pattern : <input type="text" name="zipcodep" pattern="[0-9]{5}" required><br/>
+        Zip code with numbers : <input type="number" name="zipcoden" min="00000" max="99999" required><br/>
+        <!--<label for = "gender">Gender</label><br>
+        <input type="radio" id ="gender">Female<br>
+        <input type="radio" id ="gender">Male<br>-->
+        <input type = "submit" value ="Submit">
+      </fieldset>
+    </form>
+  </body>
+</html>
